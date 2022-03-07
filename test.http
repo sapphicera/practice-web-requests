@@ -1,0 +1,29 @@
+GET https://en.wikipedia.org/wiki/Main_Page
+
+###
+
+GET https://www.ruby-lang.org/en/
+
+###
+
+TRACE https://crouton.net/
+
+###
+
+GET https://www.savannahga.gov/
+
+###
+
+GET https://dragalialost.wiki/
+
+
+### want 200 status codes; 400s and 500s are errors
+GET api.openweathermap.org/data/2.5/weather?q=savannah&units=imperial&appid=9b931dde7bfc2cc146b9bbadbe6f3567
+
+###
+
+GET api.wordnik.com/v4/word.json/bellicose/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=false&includeTags=false&api_key=22bf12vddbpizrmyfs90cf695e9j4u1seq52o4klisqmqn6v2
+
+###
+
+https://api.wordnik.com/v4/word.json/bellicose/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=false&includeTags=false&api_key=22bf12vddbpizrmyfs90cf695e9j4u1seq52o4klisqmqn6v2
